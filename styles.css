@@ -1,0 +1,195 @@
+/* Estilos generales del cuerpo y contenedor */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e8f5e9;
+  background: linear-gradient(to right, #4a69bb, #d39ae3); /* Cambia los colores según tu preferencia */
+  height: 100vh; /* Ajustar altura al tamaño de la ventana */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  opacity: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.header img {
+  max-width: 100px; /* Ajusta el ancho máximo de la imagen según tu preferencia */
+  height: auto; /* Permite que la altura se ajuste proporcionalmente según el ancho */
+  display: block; /* Asegura que la imagen se muestre como bloque para aplicar el tamaño máximo correctamente */
+  margin: 0 auto; /* Centra la imagen horizontalmente dentro del div header */
+  margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #2d9428;
+  color: white;
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  max-height: none; 
+  width: 100%;
+  justify-content: center;
+  align-items: center; /* Centra verticalmente los elementos dentro del navbar */
+}
+
+.nav img {
+  max-width: 30px; /* Ajusta el ancho máximo de la imagen según tu preferencia */
+  height: auto; /* Permite que la altura se ajuste proporcionalmente según el ancho */
+  display: inline-block; /* Cambia a inline-block para permitir ajustes de margen */
+  margin-right: 10px; /* Ajusta el margen derecho según sea necesario */
+  vertical-align: middle; /* Alinea verticalmente la imagen */
+}
+
+.nav form {
+  margin-left: auto; /* Empuja el formulario hacia la derecha para centrarlo */
+  display: flex; /* Utiliza flexbox para alinear elementos del formulario */
+  align-items: center; /* Centra verticalmente los elementos dentro del formulario */
+}
+
+.nav form label,
+.nav form select,
+.nav form button {
+  margin-right: 10px; /* Añade espacio entre los elementos del formulario */
+  border-radius: 5px; /* Redondea los bordes de los elementos */
+  padding: 8px; /* Añade relleno para mejorar el aspecto */
+}
+
+.nav form select {
+  width: 150px; /* Ajusta el ancho del select según tu diseño */
+}
+
+.nav form button {
+  background-color: #007bff; /* Color de fondo para el botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Quita el borde del botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.nav form button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.nav a {
+  flex: 1 1 auto;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+}
+
+.nav a:hover {
+  background-color: #4a69bb;
+  color: #0f1710;
+  font-weight: bold;
+}
+
+.nav.nav-open {
+  max-height: 500px; 
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #55aef7;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+button[type="submit"] {
+  background-color: #5c4bff; /* Azul violeta */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #483dff; /* Azul violeta más oscuro */
+}
+
+button[type="submit"]:focus {
+  outline: none;
+}
+
+button[type="submit"]:active {
+  transform: translateY(1px);
+}
+
+.btn-reservar {
+  background-color: #5c4bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-reservar:hover {
+  background-color: #483dff;
+}
+
+.btn-reservar:focus {
+  outline: none;
+}
+
+.btn-reservar:active {
+  transform: translateY(1px);
+}
+
+/* Estilos para tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}

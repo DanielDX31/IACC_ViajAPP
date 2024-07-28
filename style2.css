@@ -1,0 +1,36 @@
+/* Estilos para el contenedor principal */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para los títulos de sección */
+h2,p {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para cada paquete */
+.paquete {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.paquete p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.paquete hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}

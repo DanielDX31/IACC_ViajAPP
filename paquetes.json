@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "ciudad": "Santiago",
+        "vuelo_hotel": "Hotel W, 3 estrellas",
+        "desayuno_incluido": true,
+        "precio_clp": 250000
+    },
+    {
+        "id": 2,
+        "ciudad": "Valparaíso",
+        "vuelo_hotel": "Hotel Ibis, Van desde Santiago",
+        "desayuno_incluido": true,
+        "precio_clp": 300000
+    },
+    {
+        "id": 3,
+        "ciudad": "Puerto Varas",
+        "vuelo_hotel": "Hotel Bellavista, Vuelo Directo",
+        "desayuno_incluido": true,
+        "precio_clp": 400000
+    },
+    {
+        "id": 4,
+        "ciudad": "San Pedro de Atacama",
+        "vuelo_hotel": "Hotel NOI, Vuelo con escala en Antofagasta",
+        "desayuno_incluido": true,
+        "precio_clp": 350000
+    },
+    {
+        "id": 5,
+        "ciudad": "Pucón",
+        "vuelo_hotel": "Hotel Orilla de Lago, Vuelo y hotel incluidos ",
+        "desayuno_incluido": false,
+        "precio_clp": 280000
+    },
+    {
+        "id": 6,
+        "ciudad": "Iquique",
+        "vuelo_hotel": "Hotel NH Costa, 3 estrellas",
+        "desayuno_incluido": true,
+        "precio_clp": 270000
+    },
+    {
+        "id": 7,
+        "ciudad": "Viña del Mar",
+        "vuelo_hotel": "Hotel Sheraton Miramar, 4 estrellas",
+        "desayuno_incluido": true,
+        "precio_clp": 320000
+    },
+    {
+        "id": 8,
+        "ciudad": "Torres del Paine",
+        "vuelo_hotel": "Hotel Lago Grey, 5 estrellas",
+        "desayuno_incluido": true,
+        "precio_clp": 450000
+    },
+    {
+        "id": 9,
+        "ciudad": "Isla de Pascua",
+        "vuelo_hotel": "Hotel Nayara Hangaroa, 4,5 estrellas",
+        "desayuno_incluido": true,
+        "precio_clp": 500000
+    },
+    {
+        "id": 10,
+        "ciudad": "La Serena",
+        "vuelo_hotel": "Hotel Club La Serena, 3 estrellas",
+        "desayuno_incluido": false,
+        "precio_clp": 290000
+    }
+]
