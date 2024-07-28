@@ -46,7 +46,7 @@ if (isset($_SESSION['usuario'])) {
         <a href="gestion_vuelos.php">Gestion de Vuelos <img src="icono1.png" alt="icono1"></a>
         <a href="gestion_hotel.php">Gestion de hoteles <img src="icono1.png" alt="icono1"></a>
         <a href="disponibilidad_hotel.php">disponibilidad de hoteles <img src="icono1.png" alt="icono1"></a>
-        <a href="carrito.php">Ver Carrito</a>
+        <a href="carrito.php">Carrito de compras</a>
         
         </form>
         <form action="buscar.php" method="get">
