@@ -110,7 +110,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['consultar_destino'])) 
     <form action="formulario_reserva.php" method="POST">
         <label for="origen">Origen:</label>
         <select name="origen" id="origen">
-            <option value="">Seleccione un origen</option>
+            <option value="">Seleccione cuidad de origen </option>
             <?php
             
             $sql_origenes = "SELECT DISTINCT origen FROM VUELO";
